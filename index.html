@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<head>
+	<title>Aula 20/09 (PW1) - Desafio</title>
+</head>
+<body>
+<h2>Desafio</h2>
+
+<p>Criar uma programação em JavaScript que guarde 10 valores digitados pelo usuário e identifique o maior valor.</p>
+
+
+<script>
+var v=[10];
+
+v[0] = prompt ("Digite um número")
+v[1] = prompt ("Digite um número")
+v[2] = prompt ("Digite um número")
+v[3] = prompt ("Digite um número")
+v[4] = prompt ("Digite um número")
+v[5] = prompt ("Digite um número")
+v[6] = prompt ("Digite um número")
+v[7] = prompt ("Digite um número")
+v[8] = prompt ("Digite um número")
+v[9] = prompt ("Digite um número")
+
+var MaiorNum = Math.max(v[0], v[1], v[2], v[3], v[4], v[5], v[6], v[7], v[8], v[9]);
+document.write ("O maior número é: " + MaiorNum);
+document.write("<br>");
+
+var MenorNum = Math.min(v[0], v[1], v[2], v[3], v[4], v[5], v[6], v[7], v[8], v[9]);
+document.write ("O maior número é: " + MenorNum);
+</script>
+	</body>
+</html>
